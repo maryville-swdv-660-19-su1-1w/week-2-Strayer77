@@ -17,7 +17,7 @@ ALTER USER spaceman_game_user with PASSWORD 'password';
 CREATE DATABASE spaceman_game
     WITH 
     OWNER = postgres
-    ENCODING = 'UTF8'
+    ENCODING = 'SQL_ASCII'
     LC_COLLATE = 'C'
     LC_CTYPE = 'C'
     TABLESPACE = pg_default
